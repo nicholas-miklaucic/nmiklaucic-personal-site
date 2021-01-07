@@ -1,0 +1,14 @@
+{
+  "name": "nmiklaucic-personal-site",
+  "version": "0.1.0",
+  "description": "Nicholas Miklaucic personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas Miklaucic <nicholas.miklaucic@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.9.1"
+  }
+}
