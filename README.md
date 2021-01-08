@@ -1,3 +1,5 @@
 # Nicholas Miklaucic
 
-Personal website.
+Personal website, licensed under GPLv3.
+
+

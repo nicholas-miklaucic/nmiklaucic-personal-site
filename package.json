@@ -4,11 +4,19 @@
   "description": "Nicholas Miklaucic personal site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url sass/custom.scss css/custom.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
   },
   "author": "Nicholas Miklaucic <nicholas.miklaucic@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "bulma": "^0.9.1"
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bulma": "^0.9.1",
+    "fullpage.js": "^3.0.9"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
   }
 }
