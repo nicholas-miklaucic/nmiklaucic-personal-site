@@ -235,98 +235,153 @@
                             </figure>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="columns mb-3">
+                <div class="column is-12 has-text-centered">
+                    <a href="#projects" class="button is-large is-rounded is-outlined is-primary is-inverted">
+                        <i class="fas fa-arrow-down"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-foot has-text-primary is-primary">
+                <div class="columns is-centered is-mobile">
+                    <div class="column is-one-third">
+                        <div class="is-divider"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fp-section hero">
+            <div class="hero-body">
+                <div class="columns is-centered">
+                    <div class="column is-half">
+                        <h1 class="title is-1 has-text-primary has-text-centered has-text-weight-semibold">Programming Projects</h1>
+                        <h3 class="is-size-4 has-text-centered">I've been programming as a hobby since I can
+                            remember. Here's some of what I've built:</h3>
+                        <h4 class="subtitle has-text-centered is-5">(Click on a project to go to its source page.)</h4>
+                    </div>
+                </div>
+                <!-- Start Hero Carousel -->
+                <div class="columns is-centered">
+                    <div class="column is-8">
+                        <section class="hero has-carousel is-large">
+                            <div id="proj-carousel" class="hero-carousel">
+                                <div class="item-1">
+                                    <div id="scarlet-tile" class="is-clickable proj-tile has-text-white has-text-weight-medium">
+                                        <div class="notification">
+                                            <div class="content is-medium is-family-code">
+                                                <p class="title">Scarlet</p>
+                                                <p>
+                                                    <a href="https://github.com/nicholas-miklaucic/scarlet"
+                                                       class="has-text-link-light">Scarlet</a> is an open-source
+                                                    Rust library with thousands of downloads. Its goal is to help programmers work with color in a
+                                                    way that matches how humans see color, dealing with concepts like hue, chroma, and saturation
+                                                    without the inaccuracies of common systems like RGB and HSL.
+                                                </p>
+                                                <p>
+                                                    Scarlet lets the programmer simulate what colors appear like in
+                                                    different lighting environments, make gradients, convert between myriad color representations,
+                                                    and more!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-2">
+                                    <div id="fractran-tile" class="is-clickable proj-tile has-text-light">
+                                        <div class="notification is-light">
+                                            <div class="content is-family-code">
+                                                <p class="title has-text-primary">FRACTRAN</p>
+                                                <p>
+                                                    I once attended a summer camp for mathematics and had the privilege of attending
+                                                    a series of lectures by the great mathematician John Conway (of Game of Life fame). I very fondly
+                                                    remember these lectures, and one in particular I remember quite clearly over half a decade later: his
+                                                    explanation of a programming language of sorts that used fractions and multiplication as its only tool,
+                                                    but that nonetheless could be used to generate prime numbers or anything else other programming
+                                                    languages could.
+                                                </p>
+                                                <p>
+                                                    After his passing from COVID, my mind went back to this lecture, and I
+                                                    thought I would try and implement this language in Rust. This library is the
+                                                    result of that effort. It supports some optimizations that allow you to,
+                                                    within the bounds of the extremely slow nature of the language, run FRACTRAN
+                                                    programs reasonably quickly.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-3">
+                                </div>
+                            </div>
+                            <div class="hero-head"></div>
+                            <div id="proj-hero-body" class="hero-body is-clickable"></div>
+                            <div class="hero-foot"></div>
+                        </section>
                     </div>
                 </div>
                 <div class="columns mb-3">
                     <div class="column is-12 has-text-centered">
-                        <a href="#projects" class="button is-large is-rounded is-outlined is-primary is-inverted">
+                        <a href="#blog" class="button is-large is-rounded is-outlined is-dark is-inverted">
                             <i class="fas fa-arrow-down"></i>
                         </a>
                     </div>
                 </div>
-                <div class="hero-foot has-text-primary is-primary">
-                    <div class="columns is-centered is-mobile">
-                        <div class="column is-one-third">
-                            <div class="is-divider"></div>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="hero-foot has-text-primary is-primary">
+            <div class="columns is-centered is-mobile">
+                <div class="column is-one-third">
+                    <div class="is-divider"></div>
                 </div>
             </div>
-            <div class="fp-section hero">
-                <div class="hero-body">
-                    <div class="columns is-centered">
-                        <div class="column is-half">
-                            <h1 class="title is-1 has-text-primary has-text-centered has-text-weight-semibold">Programming Projects</h1>
-                            <h3 class="is-size-4 has-text-centered">I've been programming as a hobby since I can
-                                remember. Here's some of what I've built:</h3>
-                            <h4 class="subtitle has-text-centered is-5">(Click on a project to go to its source page.)</h4>
+        </div>
+        <div class="fp-section hero">
+            <div class="hero-body">
+                <div class="columns">
+                    <div class="column"></div>
+                    <div class="column is-6">
+                        <div class="content is-medium">
+                            <h1 class="title is-1 has-text-weight-semibold has-text-primary has-text-centered">Pollard's Rho</h1>
+                            <h3 class="subtitle is-4 has-text-weight-light has-text-grey has-text-centered">A blog on
+                                math, computing, and data</h3>
+                            <p>I have a <a class="has-text-link" href="https://nicholas-miklaucic.github.io/">blog</a> where I
+                                write about data science topics and whatever else piques my interest. Here's some
+                                examples of the things I've written:
+                                <ul>
+                                    <li><a class="has-text-link"
+                                           href="https://nicholas-miklaucic.github.io/posts/hello-world/">
+                                        Why I chose the name Pollard's Rho, ft. mathematical beauty</a>
+                                    </li>
+                                    <li><a class="has-text-link"
+                                           href="https://nicholas-miklaucic.github.io/posts/a-painless-introduction-to-python-data-analysis-and-visualization/">
+                                        A zero-to-hero guide to data viz in Python, ft. the year of the fire horse</a>
+                                    </li>
+                                    <li><a class="has-text-link"
+                                           href="https://nicholas-miklaucic.github.io/posts/bayesian-fallacies-part-2-the-math-of-the-psat-math-section/">
+                                        Looking at regression to the mean applied to standardized testing, ft. Bayesian statistics</a>
+                                    </li>
+                                    <li><a class="has-text-link"
+                                           href="https://nicholas-miklaucic.github.io/posts/pactf-2019-writeup-howd-i-get-hacked/">
+                                        A writeup of a problem I wrote for a high school programming competition I ran,
+                                        ft. mad science with Unicode</a>
+                                    </li>
+                                </ul>
+                            </p>
                         </div>
                     </div>
-                    <!-- Start Hero Carousel -->
-                    <div class="columns is-centered">
-                        <div class="column is-8">
-                            <section class="hero has-carousel is-large">
-                                <div id="proj-carousel" class="hero-carousel">
-                                    <div class="item-1">
-                                        <div id="scarlet-tile" class="is-clickable proj-tile has-text-white has-text-weight-medium">
-                                            <div class="notification">
-                                                <div class="content is-medium is-family-code">
-                                                    <p class="title">Scarlet</p>
-                                                    <p>
-                                                        <a href="https://github.com/nicholas-miklaucic/scarlet"
-                                                           class="has-text-link-light">Scarlet</a> is an open-source
-                        Rust library with thousands of downloads. Its goal is to help programmers work with color in a
-                        way that matches how humans see color, dealing with concepts like hue, chroma, and saturation
-                        without the inaccuracies of common systems like RGB and HSL.
-                                                    </p>
-                                                    <p>
-                                                        Scarlet lets the programmer simulate what colors appear like in
-                        different lighting environments, make gradients, convert between myriad color representations,
-                        and more!
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-2">
-                                        <div id="fractran-tile" class="is-clickable proj-tile has-text-light">
-                                            <div class="notification is-light">
-                                                <div class="content is-family-code">
-                                                    <p class="title has-text-primary">FRACTRAN</p>
-                                                    <p>
-                                                        I once attended a summer camp for mathematics and had the privilege of attending
-                                                        a series of lectures by the great mathematician John Conway (of Game of Life fame). I very fondly
-                                                        remember these lectures, and one in particular I remember quite clearly over half a decade later: his
-                                                        explanation of a programming language of sorts that used fractions and multiplication as its only tool,
-                                                        but that nonetheless could be used to generate prime numbers or anything else other programming
-                                                        languages could.
-                                                    </p>
-                                                    <p>
-                                                        After his passing from COVID, my mind went back to this lecture, and I
-                                                        thought I would try and implement this language in Rust. This library is the
-                                                        result of that effort. It supports some optimizations that allow you to,
-                                                        within the bounds of the extremely slow nature of the language, run FRACTRAN
-                                                        programs reasonably quickly.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-3">
-                                    </div>
-                                </div>
-                                <div class="hero-head"></div>
-                                <div id="proj-hero-body" class="hero-body is-clickable"></div>
-                                <div class="hero-foot"></div>
-                            </section>
-                        </div>
-                    </div>
-                    <div class="columns mb-3">
-                        <div class="column is-12 has-text-centered">
-                            <a href="#blog" class="button is-large is-rounded is-outlined is-dark is-inverted">
-                                <i class="fas fa-arrow-down"></i>
-                            </a>
-                        </div>
+                    <div class="column"></div>
+                    <div class="column is-4">
+                        <figure class="image">
+                            <img src="https://nicholas-miklaucic.github.io/images/sns-relplots/finale.png"
+                                 alt="Graph from blog" >
+                            <figcaption class="is-italic has-text-centered">A graph of birth rates for selected countries. Notice anything interesting?
+                                Check the <a class="has-text-link"
+                                             href="https://nicholas-miklaucic.github.io/posts/a-painless-introduction-to-python-data-analysis-and-visualization/">
+                                blog</a> for how to make it and some historical context.
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -337,81 +392,25 @@
                     </div>
                 </div>
             </div>
-            <div class="fp-section hero">
-                <div class="hero-body">
-                    <div class="columns">
-                        <div class="column"></div>
-                        <div class="column is-6">
-                            <div class="content is-medium">
-                                <h1 class="title is-1 has-text-weight-semibold has-text-primary has-text-centered">Pollard's Rho</h1>
-                                <h3 class="subtitle is-4 has-text-weight-light has-text-grey has-text-centered">A blog on
-                                    math, computing, and data</h3>
-                                <p>I have a <a class="has-text-link" href="https://nicholas-miklaucic.github.io/">blog</a> where I
-                                    write about data science topics and whatever else piques my interest. Here's some
-                                    examples of the things I've written:
-                                    <ul>
-                                        <li><a class="has-text-link"
-                                               href="https://nicholas-miklaucic.github.io/posts/hello-world/">
-                                            Why I chose the name Pollard's Rho, ft. mathematical beauty</a>
-                                        </li>
-                                        <li><a class="has-text-link"
-                                               href="https://nicholas-miklaucic.github.io/posts/a-painless-introduction-to-python-data-analysis-and-visualization/">
-                                            A zero-to-hero guide to data viz in Python, ft. the year of the fire horse</a>
-                                        </li>
-                                        <li><a class="has-text-link"
-                                               href="https://nicholas-miklaucic.github.io/posts/bayesian-fallacies-part-2-the-math-of-the-psat-math-section/">
-                                            Looking at regression to the mean applied to standardized testing, ft. Bayesian statistics</a>
-                                        </li>
-                                        <li><a class="has-text-link"
-                                               href="https://nicholas-miklaucic.github.io/posts/pactf-2019-writeup-howd-i-get-hacked/">
-                                            A writeup of a problem I wrote for a high school programming competition I ran,
-                                            ft. mad science with Unicode</a>
-                                        </li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="column"></div>
-                        <div class="column is-4">
-                            <figure class="image">
-                                <img src="https://nicholas-miklaucic.github.io/images/sns-relplots/finale.png"
-                                     alt="Graph from blog" >
-                                <figcaption class="is-italic has-text-centered">A graph of birth rates for selected countries. Notice anything interesting?
-                                    Check the <a class="has-text-link"
-                                                 href="https://nicholas-miklaucic.github.io/posts/a-painless-introduction-to-python-data-analysis-and-visualization/">
-                                    blog</a> for how to make it and some historical context.
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero-foot has-text-primary is-primary">
-                    <div class="columns is-centered is-mobile">
-                        <div class="column is-one-third">
-                            <div class="is-divider"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="fp-section hero">
-                <div class="hero-body">
-                    <div class="columns is-centered">
-                        <div class="column is-half">
-                            <h1 class="title is-1 has-text-centered has-text-primary">Employment</h1>
-                            <div class="content is-medium">
-                                <p>
-                                    Something on this site seem interesting? Think I'd be a good fit for an opening?
-                                    Here's my <a class="has-text-link"
-                                                 href="resume.pdf">résumé</a>.
-                                    You can feel free to contact me at <a class="has-text-link"
-                                                                          href="mailto:nicholas.miklaucic@gmail.com">nicholas.miklaucic@gmail.com</a>.
-                                    I'm currently looking for work between July and December 2021, and I'm open to
-                                    employment anywhere in the United States.
+        </div>
+        <div class="fp-section hero">
+            <div class="hero-body">
+                <div class="columns is-centered">
+                    <div class="column is-half">
+                        <h1 class="title is-1 has-text-centered has-text-primary">Employment</h1>
+                        <div class="content is-medium">
+                            <p>
+                                Something on this site seem interesting? Think I'd be a good fit for an opening?
+                                Here's my <a class="has-text-link"
+                                             href="resume.pdf">résumé</a>.
+                                You can feel free to contact me at <a class="has-text-link"
+                                                                      href="mailto:nicholas.miklaucic@gmail.com">nicholas.miklaucic@gmail.com</a>.
+                                I'm currently looking for work between July and December 2021, and I'm open to
+                                employment anywhere in the United States.
 
-                                    My <a class="has-text-link" href="https://www.linkedin.com/in/nicholas-miklaucic/">LinkedIn page</a> has details
-                                    about my prior employment.
-                                </p>
-                            </div>
+                                My <a class="has-text-link" href="https://www.linkedin.com/in/nicholas-miklaucic/">LinkedIn page</a> has details
+                                about my prior employment.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -422,7 +421,7 @@
                 crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js" integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw==" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw==" crossorigin="anonymous"></script>
-        <script src="node_modules/bulma-extensions/bulma-carousel/dist/js/bulma-carousel.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
         <script src="index.js"></script>
     </body>
 </html>
