@@ -29,6 +29,7 @@ $('#proj-hero-body').on('click', function () {
 });
 
 var myFullpage = new fullpage('#fullpage', {
+  licenseKey: 'cP?xxlB!o2',
 	//Navigation
 	menu: '#menu',
 	lockAnchors: false,
