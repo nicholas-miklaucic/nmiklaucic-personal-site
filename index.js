@@ -21,7 +21,8 @@ $('#proj-hero-body').on('click', function () {
   var ind = proj_carousel.state.index;
   const URLS = [
     "https://github.com/nicholas-miklaucic/scarlet",
-    "https://github.com/nicholas-miklaucic/fractran-lib-rs"
+    "https://github.com/nicholas-miklaucic/fractran-lib-rs",
+    "https://nicholas-miklaucic.github.io/parthia-site/index.html"
   ];
   if (ind < URLS.length) {
     window.open(URLS[ind])
